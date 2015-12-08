@@ -31,7 +31,7 @@ if node[:platform] == "windows"
     end
 
     remote_file download_path do
-      source 'http://download.microsoft.com/download/0/D/5/0D57186C-834B-463A-AECB-BC55A8E466AE/VSCodeSetup.exe'
+      source 'https://az764295.vo.msecnd.net/public/0.10.3/VSCodeSetup.exe'
     end
 
     # Skip install if we're local system since vscode
